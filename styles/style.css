@@ -1,7 +1,13 @@
+body {
+    background-color: #d6d7da;
+}
+
 /* HEADER start */
 header {
     display: flex;
-    border: 1px solid #000;
+    border: 1px solid #fff;
+    background-color: #1f2937;
+    color: #fff;
 }
 
 ul {
@@ -21,7 +27,14 @@ ul {
     margin-top: 10px;
     flex-direction: column;
     /* Border made just to separate sections, may delete when make the actual design */
-    border: 1px solid #000;
+    border: 1px solid #fff;
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.section-1 .sign-up {
+    background-color: #3882f6;
+    color: #fff;
 }
 
 .section-1 .car-washing-img {
