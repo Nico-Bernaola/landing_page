@@ -1,0 +1,43 @@
+/* HEADER start */
+header {
+    display: flex;
+    border: 1px solid #000;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+.head-link {
+    margin-left: auto;
+}
+/* End of HEADER */
+
+/* First section start */
+.section-1 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    /* Border made just to separate sections, may delete when make the actual design */
+    border: 1px solid #000;
+}
+
+.section-1 .car-washing-img {
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+/* End of first section */
+
+/* Second section start */
+.section-2 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+/* End of second section */
