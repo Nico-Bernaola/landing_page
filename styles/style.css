@@ -1,5 +1,6 @@
 body {
     background-color: #d6d7da;
+    font-family: 'Roboto', sans-serif;
  
 }
 
@@ -9,13 +10,15 @@ header {
     background-color: #1f2937;
     color: #fff;
     padding: 10px;
-    height: 100px;
+    height: 70px;
     position: sticky;
     top: 0%;
 }
 
 .head {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -25,11 +28,16 @@ ul {
 
 .head-logo {
     font-size: 24px;
+    font-weight: 900;
     color: #f9faf8;
+    margin-right: 10px;
 }
 
 .head-link {
-    margin-left: auto;
+    margin-left: 500px;
+    color: #d6d7da;
+    font-weight: 600;
+    gap: 30px;
 }
 /* End of HEADER */
 
@@ -39,7 +47,6 @@ ul {
     /*Guide background color, may be deleted*/
     background-color: #000;
     flex-direction: column;
-    border: 1px solid #000;
 }
 /* MAIN End */
 
@@ -49,38 +56,54 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    /* Border made just to separate sections, may delete when make the actual design */
     background-color: #1f2937;
     color: #fff;
     gap: 20px;
 }
 
 .hero-text {
-    border: 1px solid white;
-    max-width: 400px;
+    margin-bottom: 50px;
+    flex-basis: 400px;
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    margin-left: 80px;
 }
 
 .section-1 h1 {
     font-size: 48px;
+    color: #f9faf8;
     font-weight: bold;
-    color: f9faf8;
+    margin: 0;
 }
 
 .section-1 .sign-up {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
+    font-weight: bold;
     color: #fff;
-    height: 20px;
-    width: 100px;
-    padding: 5px;
-    border-radius: 5px;
+    width: 110px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 8px;
+    flex-grow: 0;
 }
 
-.section-1 .car-washing-img {
+.section-1 .hero-image {
     width: 500px;
-    height: 200px;
+    height: 350px;
+    border: 1px solid #fff;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 /* End of first section */
 
@@ -137,7 +160,7 @@ ul {
 /* End of fourth section */
 
 .section-1,.section-2, .section-3, .section-4 {
-    min-height: 432px;
+    min-height: 330px;
 }
 
 /* Footer section start */
